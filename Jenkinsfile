@@ -15,7 +15,8 @@ node ('master')
 
   stage("CheckOutCodeGit")
   {
-   git branch: url: 'https://github.com/thameezudin/maven-web-application.git'}
+   git 'https://github.com/thameezudin/maven-web-application.git'
+}
 
  stage("Build")
  {
